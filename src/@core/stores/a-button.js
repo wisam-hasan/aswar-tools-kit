@@ -1,6 +1,6 @@
 import { defineStore } from "pinia"
 import { ref } from 'vue'
-export const useButtonStore = defineStore('Button', () => {
+export const useAButtonStore = defineStore('AButton', () => {
 
   const buttonClick=ref(0)
 

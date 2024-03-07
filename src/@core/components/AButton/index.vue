@@ -1,6 +1,6 @@
 <script setup>
 import { storeToRefs } from 'pinia';
-import { useButtonStore } from '@core/stores/button';
+import { useAButtonStore } from '@core/stores/a-button';
 
 const props = defineProps({
     classValue: {
@@ -10,7 +10,7 @@ const props = defineProps({
 
   })
 
-  const buttonStore=useButtonStore()
+  const buttonStore=useAButtonStore()
   const {buttonClick}=storeToRefs(buttonStore)
 </script>
 <template>
